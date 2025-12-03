@@ -1,0 +1,12 @@
+DÉBUT|0||true,true|0|0|0|426|448
+A|2|DÉBUT|true,true|0|0|1|467|452
+B|3|DÉBUT|true,true|0|0|1|623|438
+C|5|A|true,true|2|2|2|450|179
+D|2|A|true,true|2|5|2|450|279
+E|4|B|true,true|3|3|2|450|379
+F|2|B|true,true|3|5|2|450|479
+G|4|C,D|true,true|7|7|3|460|453
+H|4|E,F|true,true|7|7|3|620|429
+I|4|G,H|true,true|11|11|4|387|457
+FIN|0|I,ll|true,true|15|15|5|474|441
+ll|5|A|true,true|2|10|2|450|579

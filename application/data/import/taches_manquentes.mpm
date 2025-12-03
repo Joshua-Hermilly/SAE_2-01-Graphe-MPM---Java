@@ -1,0 +1,86 @@
+Architecte|4|
+Fondations (creuser)|2|Architecte
+Commande des matériaux|1|Architecte
+Commande des huisseries|1|Architecte
+Livraison des matériaux|2|Commande des matériaux
+Fondations (coulage dalle)|2|Fondations (creuser),Livraison des matériaux
+Livraison des huisseries|7|Commande des huisseries
+Pose des murs|10|Fondations (coulage dalle)
+Pose charpente et toit|7|Pose des murs
+Électricité et plomberie|4|Pose des murs,Pose charpente et toit
+Pose des huisseries|2|Livraison des huisseries,Pose des murs
+Isolation des murs|3|Pose des murs
+Cloisonnement intérieur|4|Isolation des murs
+Préparation réseau ventilation|2|Électricité et plomberie
+Pose réseau ventilation|2|Préparation réseau ventilation
+Pose chauffage|3|Électricité et plomberie
+Installation tableau électrique|1|Électricité et plomberie
+Pose plomberie salle de bain|2|Électricité et plomberie
+Pose plomberie cuisine|2|Électricité et plomberie
+Tests électriques|1|Installation tableau électrique
+Tests plomberie|1|Pose plomberie salle de bain,Pose plomberie cuisine
+Pose placo|3|Cloisonnement intérieur,Pose plomberie salle de bain
+Pose carrelage salle de bain|2|Pose plomberie salle de bain
+Pose carrelage cuisine|2|Pose plomberie cuisine
+Livraison carrelage|1|Commande des matériaux
+Commande mobilier cuisine|1|Architecte
+Commande sanitaires|1|Architecte
+Livraison mobilier cuisine|3|Commande mobilier cuisine
+Livraison sanitaires|3|Commande sanitaires
+Pose sanitaires|2|Pose carrelage salle de bain,Livraison sanitaires
+Pose mobilier cuisine|2|Pose carrelage cuisine,Livraison mobilier cuisine
+Commande peinture|1|Architecte
+Livraison peinture|2|Commande peinture
+Peinture murs intérieurs|3|Pose placo,Livraison peinture
+Peinture plafonds|2|Pose placo,Livraison peinture
+Finitions électricité|2|Tests électriques,Peinture murs intérieurs
+Finitions plomberie|2|Tests plomberie,Peinture murs intérieurs
+Nettoyage pré-livraison|2|Finitions électricité,Finitions plomberie
+Pré-réception|1|Nettoyage pré-livraison
+Livraison|0|Pré-réception,Pose des huisseries
+Installation interphone|1|Pose des huisseries
+Installation VMC|2|Pose réseau ventilation
+Pose portes intérieures|2|Peinture murs intérieurs
+Pose sols chambres|2|Peinture murs intérieurs
+Pose sols séjour|2|Peinture murs intérieurs
+Commande sols|1|Architecte
+Livraison sols|2|Commande sols
+Préparation sols|1|Livraison sols
+Pose sols couloir|2|Préparation sols
+Installation éclairage|2|Finitions électricité
+Pose garde-corps escalier|1|Pose des murs
+Pose escalier|2|Fondations (coulage dalle)
+Pose rampe accès handicapé|2|Pose escalier
+Étanchéité toiture|2|Pose charpente et toit
+Test étanchéité toiture|1|Étanchéité toiture
+Installation alarme|1|Finitions électricité
+Installation réseau internet|2|Installation tableau électrique
+Installation fibre optique|2|Installation réseau internet
+Peinture extérieure|2|Étanchéité toiture
+Pose boîte aux lettres|1|Pose des huisseries
+Installation sonnette|1|Pose des huisseries
+Installation cuisine extérieure|2|Pose mobilier cuisine
+Création terrasse|3|Pose murs
+Aménagement jardin|3|Création terrasse
+Commande clôture|1|Architecte
+Livraison clôture|2|Commande clôture
+Pose clôture|2|Livraison clôture
+Installation portail|2|Pose clôture
+Installation éclairage extérieur|2|Peinture extérieure
+Pose pelouse|2|Aménagement jardin
+Plantation arbres|3|Pose pelouse
+Pose abri jardin|2|Aménagement jardin
+Installation arrosage automatique|2|Pose pelouse
+Test arrosage|1|Installation arrosage automatique
+Nettoyage extérieur|1|Plantation arbres,Installation éclairage extérieur
+Débarras des déchets|1|Nettoyage pré-livraison,Nettoyage extérieur
+Inspection finale sécurité|1|Débarras des déchets
+Réglage domotique|1|Installation alarme,Installation fibre optique
+Livraison finale|0|Inspection finale sécurité,Réglage domotique
+Pose rideaux|1|Pose fenêtres
+Pose fenêtres|2|Pose des huisseries
+Nettoyage vitres|1|Pose fenêtres
+Test ouverture/fermeture fenêtres|1|Pose fenêtres
+Décoration intérieure|2|Peinture murs intérieurs,Pose sols séjour
+Décoration extérieure|2|Peinture extérieure
+Remise des clés|0|Livraison finale
